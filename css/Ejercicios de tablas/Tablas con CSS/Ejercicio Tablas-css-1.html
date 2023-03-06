@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colapso de Bordes</title>
+    <style type="text/css">
+    .collapse{
+        border-collapse: collapse;
+        border: 2px solid red;
+    }
+    .separado{
+        border-collapse: separate;
+        border: 2px solid green;
+
+    }
+
+    .black{
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+     </style>
+     <body>
+    <table class="collapse">
+    <tr>
+    <th colspan="2">border-collapse:collapse</th>
+    </tr>
+    <td class="black">Borde de Tabla rojo</td>
+    <td class="black">Borde de Celda negro</td>
+    <tr>
+    </table>
+   <p></p>
+   <table class="separado">
+    <tr>
+    <th colspan="2">border-collapse:separate</th>
+    </tr>
+    <td class="black">Borde de Tabla verde</td>
+    <td class="black">Borde de Celda negro</td>
+    <tr>
+    </table>
+</body>
+</head>
+</html>

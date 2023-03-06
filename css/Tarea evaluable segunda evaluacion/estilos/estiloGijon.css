@@ -1,0 +1,113 @@
+/* CSS estilo para web Gijón y la laboral  */
+
+
+
+header {
+  font-family: Arial, Helvetica, sans-serif ;
+  background-color:lightgray;
+ border: 10px red solid;
+ color: black;
+}
+
+body{  
+  margin: 5px 15px;
+  background-color:white;
+  color: black;
+}
+
+main{
+  font-family: Arial, Helvetica, sans-serif ;
+  color:black;
+}
+
+
+footer {
+  padding:3px;
+  font-family:sans-serif;
+  font-style: italic;
+  color: rgb(117, 117, 117);
+  background-color: lightgray;
+}
+
+p.pie{
+  color:darkgrey;
+}
+
+h1{
+  color: white;
+  background: red;
+  letter-spacing: 1.6rem;
+  line-height: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;;
+}
+
+h2{
+  font-size: 200%;
+  color:black;
+  text-align: center;
+  margin-left: 25px;
+  background-color:lightgray; 
+}
+
+h3{
+  font-size: 150%;
+  color:black;
+  text-align: left;
+  margin-left: 25px;
+  text-align: center;
+}
+
+h4{
+  font-size: 125%;
+  color:black;
+  text-align: left;
+  margin-left: 25px;
+}
+
+h5{
+  font-size: 110%;
+  color:black;
+  text-align: left;
+  margin-left: 25px;
+}
+
+div {
+  border-bottom:#e60000 3px solid ;
+  border-top:#e60000 3px solid ;
+  border-left:#e60000 6px solid;
+  border-right:#e60000 6px solid;
+}
+
+p {
+  margin:15px;
+  font-size: 100%;
+  line-height: 140%;
+  color:black;
+  background-color: lightgray; ;
+}
+
+div{
+  background-color:lightgray; 
+}
+.imagenprehistoria {
+  margin-right: 2%;
+margin-left: 1%;
+
+}
+.imagenmontedeva{
+  margin-left: 30%;
+}
+.riopiles{
+  margin-left: 2%;
+}
+.monteareo{
+  margin-left: 2%;
+}
+.graficoevolucion{
+  margin-right: 10%;
+}
+.parroquia{
+  margin: right 8px; ;
+}
